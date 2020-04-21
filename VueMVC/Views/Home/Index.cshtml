@@ -1,0 +1,15 @@
+﻿@using System.Web.Optimization
+@{
+  ViewBag.Title = "Home Page";
+}
+
+<div id="app">
+    <heading></heading>
+    <helloworld></helloworld>
+    <first-component></first-component>
+  
+</div>
+
+@section scripts {
+  @Scripts.Render("~/Scripts/bundle/home.js")
+}
